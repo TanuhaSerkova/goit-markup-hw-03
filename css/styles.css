@@ -26,7 +26,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
+  margin-bottom: 0;
   outline: 2px solid tomato;
 }
 .header-nav {
@@ -53,6 +53,8 @@ body {
   color: var(--accent-color);
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .link {
