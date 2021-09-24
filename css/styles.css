@@ -20,6 +20,14 @@ body {
 
 /*Шапка страницы*/
 
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
 .header-nav {
   background-color: var(--secondary-text-color);
 }
@@ -77,12 +85,15 @@ body {
   text-transform: uppercase;
 }
 .button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
