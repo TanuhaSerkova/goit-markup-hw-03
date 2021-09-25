@@ -73,10 +73,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.auth-nav {
-  display: flex;
-  justify-content: flex-end;
-}
 .contacts {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -87,8 +83,8 @@ body {
 /*Эффективные решения*/
 
 .section {
-  background-color: var(--accent-bgc-color);
   height: 600px;
+  background-color: var(--accent-bgc-color);
 }
 .title {
   padding: 0;
@@ -160,7 +156,7 @@ body {
 .section-team {
   background-color: var(--secondary-bgc-color);
 }
-img {
+.item-img {
   padding-top: 50px;
 }
 .section-team-name,
@@ -239,10 +235,14 @@ img {
   display: flex;
   justify-content: center;
   padding-top: 100px;
+  padding-bottom: 56px;
 }
 .section-main-buttons .current {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+}
+.item-pictures {
+  padding-top: 30px;
 }
 .section-pictures-title {
   padding-top: 20px;
