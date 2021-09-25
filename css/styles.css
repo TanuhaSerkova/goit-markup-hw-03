@@ -41,6 +41,8 @@ body {
 .site-nav {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -52,6 +54,8 @@ body {
 }
 .logo-item {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .studio {
   color: var(--title-text-color);
@@ -90,6 +94,8 @@ body {
 .auth-nav {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts {
   color: var(--primary-text-color);
