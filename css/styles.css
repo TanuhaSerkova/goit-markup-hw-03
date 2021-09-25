@@ -26,13 +26,14 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0;
   outline: 2px solid tomato;
 }
 .header-nav {
   background-color: var(--secondary-text-color);
 }
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: 'Raleway', sans-serif;
   color: var(--accent-color);
   font-weight: 700;
@@ -58,6 +59,8 @@ body {
   list-style: none;
 }
 .link {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
 }
 .header-link {
@@ -78,6 +81,10 @@ body {
 .section {
   background-color: var(--accent-bgc-color);
   height: 600px;
+}
+.title {
+  padding: 0;
+  margin: 0;
 }
 .section-title {
   color: var(--secondary-text-color);
@@ -112,10 +119,15 @@ body {
 /*План решения*/
 
 .section-plan-title {
+  padding-top: 94px;
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+}
+.text {
+  padding: 0;
+  margin: 0;
 }
 .section-plan-text {
   font-weight: 400;
@@ -126,6 +138,7 @@ body {
 
 .section-work .title,
 .section-team .title {
+  padding-top: 94px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
