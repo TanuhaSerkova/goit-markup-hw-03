@@ -50,6 +50,9 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
+.logo-item {
+  margin-right: 93px;
+}
 .studio {
   color: var(--title-text-color);
 }
@@ -71,6 +74,9 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 .header-link {
   color: var(--title-text-color);
