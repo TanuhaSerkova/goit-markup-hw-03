@@ -31,10 +31,13 @@ body {
 .header-nav {
   background-color: var(--secondary-text-color);
 }
+.header-nav-link,
+.site-nav,
+.auth-nav {
+  display: flex;
+}
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
@@ -130,6 +133,7 @@ body {
   margin: 0;
 }
 .section-plan-text {
+  padding-top: 10px;
   font-weight: 400;
   line-height: 1.71;
 }
@@ -151,30 +155,41 @@ body {
 .section-team {
   background-color: var(--secondary-bgc-color);
 }
+img {
+  padding-top: 50px;
+}
 .section-team-name,
 .section-team-profesion {
+  margin: 0;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .section-team-name {
+  padding-top: 30px;
   color: var(--title-text-color);
   font-weight: 500;
 }
 .section-team-profesion {
+  padding-top: 10px;
   font-weight: 400;
 }
 
 /*Подвал страницы*/
 
 .footer {
+  display: block;
   background-color: var(--accent-bgc-color);
   font-style: normal;
+}
+.logo .footer {
+  padding-top: 60px;
 }
 .footer-studio {
   color: var(--secondary-text-color);
 }
 .footer-address {
+  padding-top: 20px;
   color: var(--secondary-text-color);
   font-weight: 400;
   line-height: 1.71;
@@ -184,6 +199,7 @@ body {
   color: var(--accent-color);
 }
 .footer-contacts {
+  padding-top: 9px;
   color: var(--accent-footer-color);
   font-weight: 400;
   line-height: 1.71;
@@ -212,12 +228,17 @@ body {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
+.section-main-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
 .section-main-buttons .current {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
-
 .section-pictures-title {
+  padding-top: 20px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -225,6 +246,7 @@ body {
   letter-spacing: 0.06em;
 }
 .section-pictures-text {
+  padding-top: 4px;
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
