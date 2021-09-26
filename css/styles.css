@@ -285,12 +285,26 @@ body {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
+/*Портфолио*/
+
+.section-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .item-pictures {
+  padding-left: 30px;
+}
+.item-pictures:nth-child(n + 4) {
   padding-top: 30px;
+}
+.item-pictures:nth-child(n + 7) {
+  padding-bottom: 94px;
 }
 .section-pictures-title {
   padding-top: 20px;
   color: var(--title-text-color);
+  text-align: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -299,6 +313,7 @@ body {
 .section-pictures-text {
   padding-top: 4px;
   color: var(--primary-text-color);
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
