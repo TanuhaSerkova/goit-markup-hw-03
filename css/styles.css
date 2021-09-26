@@ -221,10 +221,12 @@ body {
 /*Подвал страницы*/
 
 .footer {
+  height: 252px;
   background-color: var(--accent-bgc-color);
   font-style: normal;
 }
 .logo-footer {
+  display: block;
   padding-top: 60px;
   padding-bottom: 20px;
 }
@@ -233,7 +235,7 @@ body {
 }
 .footer-item {
   display: block;
-  padding: bottom 9px;
+  padding-top: 9px;
 }
 .footer-address {
   color: var(--secondary-text-color);
