@@ -191,14 +191,17 @@ body {
 .section-team {
   background-color: var(--secondary-bgc-color);
 }
-.item-img {
+.section-team .list {
   display: flex;
+  align-items: center;
+}
+.item-img {
   padding-top: 50px;
+  padding-bottom: 94px;
   padding-left: 30px;
 }
 .section-team-name,
 .section-team-profesion {
-  display: flex;
   margin: 0;
   font-size: 16px;
   line-height: 1.19;
@@ -211,6 +214,7 @@ body {
 }
 .section-team-profesion {
   padding-top: 10px;
+  padding-bottom: 30px;
   font-weight: 400;
 }
 
