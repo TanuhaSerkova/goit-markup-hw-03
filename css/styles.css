@@ -146,6 +146,10 @@ body {
 
 /*План решения*/
 
+.section-plan {
+  display: flex;
+  justify-content: space-between;
+}
 .section-plan-title {
   padding-top: 94px;
   color: var(--title-text-color);
@@ -156,6 +160,9 @@ body {
 .text {
   padding: 0;
   margin: 0;
+}
+.section-plan-item:not(:last-child) {
+  padding-right: 30px;
 }
 .section-plan-text {
   padding-top: 10px;
@@ -174,6 +181,10 @@ body {
   font-size: 36px;
   line-height: 1.17;
 }
+.section-work-img {
+  display: flex;
+  align-items: center;
+}
 
 /*Наша команда*/
 
@@ -181,10 +192,13 @@ body {
   background-color: var(--secondary-bgc-color);
 }
 .item-img {
+  display: flex;
   padding-top: 50px;
+  padding-left: 30px;
 }
 .section-team-name,
 .section-team-profesion {
+  display: flex;
   margin: 0;
   font-size: 16px;
   line-height: 1.19;
