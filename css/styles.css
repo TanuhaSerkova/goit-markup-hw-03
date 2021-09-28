@@ -173,17 +173,28 @@ body {
 
 /*Чем мы занимаемся-*/
 
-.section-work .title,
-.section-team .title {
-  text-align: center;
+.section-work {
+  padding-top: 0;
+}
+.section-work-title,
+.section-team-title {
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
 }
 .section-work-img {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.item-img {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 /*Наша команда*/
@@ -191,23 +202,28 @@ body {
 .section-team {
   background-color: var(--secondary-bgc-color);
 }
-.section-team .list {
+.section-team {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
-.item-img {
-  padding-top: 50px;
-  padding-left: 30px;
+.item-img-team {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--secondary-text-color);
 }
 .section-team-name,
 .section-team-profesion {
+  padding-top: 30px;
   margin: 0;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .section-team-name {
-  padding-top: 30px;
   color: var(--title-text-color);
   font-weight: 500;
 }
@@ -220,24 +236,23 @@ body {
 /*Подвал страницы*/
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--accent-bgc-color);
 }
 .logo-footer {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 20px;
-  font-style: normal;
+  margin-bottom: 20px;
 }
 .footer-studio {
   color: var(--secondary-text-color);
 }
 .footer-item {
   display: block;
-  padding-top: 9px;
   font-style: normal;
 }
-.footer-item:nth-child(3) {
-  padding-bottom: 60px;
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-address {
   color: var(--secondary-text-color);
