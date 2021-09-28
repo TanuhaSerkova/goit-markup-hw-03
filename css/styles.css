@@ -21,11 +21,10 @@ body {
 /*Шапка страницы*/
 
 .header-nav {
-  background-color: var(--secondary-text-color);
   border-bottom: 1px solid #ececec;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
