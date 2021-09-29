@@ -163,10 +163,8 @@ body {
   margin-left: -30px;
   margin-top: -30px;
 }
-.style {
-  display: none;
-}
 .section-plan-title {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.14;
@@ -182,7 +180,6 @@ body {
   flex-basis: calc(100% / 4 - 30px);
 }
 .section-plan-text {
-  padding-top: 10px;
   font-weight: 400;
   line-height: 1.71;
 }
@@ -218,7 +215,7 @@ body {
 .section-team {
   background-color: var(--secondary-bgc-color);
 }
-.section-team {
+.section-team-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -230,21 +227,25 @@ body {
   flex-basis: calc(100% / 4 - 30px);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--secondary-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team-photo {
+  margin-bottom: 30px;
 }
 .section-team-name,
 .section-team-profesion {
-  padding-top: 30px;
   margin: 0;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .section-team-name {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
 }
 .section-team-profesion {
-  padding-top: 10px;
   padding-bottom: 30px;
   font-weight: 400;
 }
@@ -309,6 +310,8 @@ body {
 .buttons:focus {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .section-main-buttons {
   display: flex;
@@ -318,6 +321,8 @@ body {
 .section-main-buttons .current {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*Портфолио*/
 
