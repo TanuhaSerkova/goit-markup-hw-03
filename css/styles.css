@@ -72,15 +72,15 @@ body {
   list-style: none;
 }
 .link {
-  display: block;
-  padding: 32px 0;
-  margin: 0;
   text-decoration: none;
 }
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
 .header-link {
+  display: block;
+  padding: 32px 0;
+  margin: 0;
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -94,6 +94,9 @@ body {
   align-items: center;
 }
 .contacts {
+  display: block;
+  padding: 32px 0;
+  margin: 0;
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
